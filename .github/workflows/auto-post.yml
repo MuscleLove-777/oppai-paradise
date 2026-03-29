@@ -28,15 +28,7 @@ jobs:
           AFFILIATE_ID: ${{ secrets.AFFILIATE_ID }}
           SITE_NAME: ${{ secrets.SITE_NAME }}
         working-directory: scripts
-        run: python3 main.py --keyword "巨乳" --count 5
-
-      - name: Generate articles (美乳)
-        env:
-          API_ID: ${{ secrets.API_ID }}
-          AFFILIATE_ID: ${{ secrets.AFFILIATE_ID }}
-          SITE_NAME: ${{ secrets.SITE_NAME }}
-        working-directory: scripts
-        run: python3 main.py --keyword "美乳" --count 5
+        run: python3 main.py --keyword "巨乳" --count 1
 
       - name: Commit and push
         run: |
