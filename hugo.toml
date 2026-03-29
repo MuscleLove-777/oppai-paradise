@@ -12,9 +12,10 @@ buildExpired = false
 
 [sitemap]
   changefreq = "daily"
-  priority = 0.5
+  priority = 0.7
 
 [params]
+  canonicalURL = true
   env = "production"
   description = "巨乳・美乳・爆乳ジャンルのAV作品を毎日厳選。たわわなおっぱいをサンプル動画付きで紹介"
   author = "おっぱいパラダイス編集部"
